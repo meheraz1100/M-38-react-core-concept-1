@@ -1,5 +1,5 @@
 export default function Todo(props){
-    props.task = "ami ghumabo"
+    const task = "ami ghumabo"
     return (
         <li>Task :{task}</li>
     )
