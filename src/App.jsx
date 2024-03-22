@@ -11,7 +11,7 @@ function App() {
       <Todo task="Learn React"></Todo>
       <Todo task="Explore Core concepts" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={true}></Todo>
-      <Device name='laptop' price="55000"></Device>
+      {/* <Device name='laptop' price="55000"></Device>
       <Device name='mobile' price="17000"></Device>
       <Device name="watch" price="3000"></Device>
       <Person></Person>
@@ -19,7 +19,7 @@ function App() {
       <Student grade={12} score="85"></Student>
       <Student></Student>
       <Student></Student>
-      <Developer></Developer>
+      <Developer></Developer> */}
     </>
   );
 }
