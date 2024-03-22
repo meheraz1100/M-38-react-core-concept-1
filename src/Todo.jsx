@@ -46,8 +46,20 @@
 
 
 // conditional rendering option -5 && 
-export default function Todo({task, isDone}){    
-    return (
-        <li>{task} {isDone || ': Do it'}</li>
-    )
+// export default function Todo({task, isDone}){    
+//     return (
+//         <li>{task} {isDone || ': Do it'}</li>
+//     )
+// }
+
+// conditional rendering option -6
+export default function Todo({task, isDone}){
+    let listItem;
+    if(isDone){
+        listItem = <li>Finished : {task}</li>
+    }
+    else{
+        listItem = <li>Work on : {task}</li>
+    }
+    return listItem;
 }
